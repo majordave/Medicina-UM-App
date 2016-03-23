@@ -5,7 +5,7 @@
     <description>Latest from the Last Word on Football</description>
     <author email="chris@" href="http://www.agameoftwohalves.com">AGOTH Webmaster</author>
 
-    <preference name="phonegap-version" value="cli-5.2.0" />
+    <preference name="phonegap-version" value="cli-6.0.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
