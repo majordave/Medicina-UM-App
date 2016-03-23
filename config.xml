@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.agameoftwohalves.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>A Game of Two Halves</name>
-    <description>Latest from the Last Word on Football</description>
+    <name>Medicina UM</name>
+    <description>App Oficial de la Carrera de Medicina de la Universidad de Montemorelos</description>
     <author email="chris@" href="http://www.agameoftwohalves.com">AGOTH Webmaster</author>
 
     <preference name="phonegap-version" value="cli-6.0.0" />
