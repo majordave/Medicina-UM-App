@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.agameoftwohalves.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    
+    <name>A Game of Two Halves</name>
+    <description>Latest from the Last Word on Football</description>
+    <author email="chris@" href="http://www.agameoftwohalves.com">AGOTH Webmaster</author>
+
+    <preference name="phonegap-version" value="3.3.0" />
+    <feature name="http://api.phonegap.com/1.0/device" />
+    
+    <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+    
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.file-transfer" />
+    <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.contacts" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.dialogs" />
+    <gap:plugin name="org.apache.cordova.vibration" />
+    <gap:plugin name="org.apache.cordova.network-information" />
+    <gap:plugin name="com.simplec.plugins.localnotification" />
+
+	<icon src="icon.png" />
+	
+    <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="res/icons/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />    
+    <icon src="res/icons/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
+    <icon src="res/icons/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+
+    <icon src="res/icons/android/drawable-ldpi/Icon.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="res/icons/android/drawable-mdpi/Icon.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="res/icons/android/drawable-hdpi/Icon.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="res/icons/android/drawable-xdpi/Icon.png" gap:platform="android" gap:density="xhdpi" />
+	
+    <gap:splash src="splash.png" />
+    
+    <gap:splash src="res/screen/android/drawable-ldpi/splash.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/drawable-mdpi/splash.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/drawable-hdpi/splash.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/drawable-xdpi/splash.png" gap:platform="android" gap:density="xhdpi" />
+    
+    <gap:splash src="res/screen/ios/Default.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
+    <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
+
+    <content src="http://www.agameoftwohalves.com" />
+    <access origin="*" subdomains="true" />
+</widget>
