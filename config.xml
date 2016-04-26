@@ -5,7 +5,7 @@
     <description>App Oficial de la Carrera de Medicina de la Universidad de Montemorelos</description>
     <author email="davemayorz94@gmail.com" href="#">Creador de App</author>
 
-    <preference name="phonegap-version" value="cli-6.0.0" />
+    <preference name="phonegap-version" value="cli-6.1.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
