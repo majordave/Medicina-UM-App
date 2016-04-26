@@ -47,6 +47,6 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
-    <content src="www.medicina-um.16mb.com" />
-    <access origin="www.medicina-um.16mb.com" subdomains="true" />
+    <content src="http://www.medicina-um.16mb.com" />
+    <access origin="*" subdomains="true" />
 </widget>
