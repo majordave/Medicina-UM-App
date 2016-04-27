@@ -5,7 +5,7 @@
     <description>Aplicación nativa de la carrera de medicina, UM</description>
     <author email="davemayorz94@gmail.com" href="#">Creador de la App</author>
 
-    <preference name="phonegap-version" value="5.2.0" />
+    <preference name="phonegap-version" value="cli-5.2.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
 
     <preference name="orientation" value="portrait" />
