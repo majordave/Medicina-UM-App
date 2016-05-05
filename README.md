@@ -38,7 +38,6 @@ Toda la configuración necesaria está contenida en el archivo *config.xml*. En 
 ```html
 <widget id="com.medicina_um.app"
 ```
-[comment]: <> (empty line)
 
 Es el ID de la app generada, el estándar es invertir el dominio del sitio y añadirle *app* al final.
 
