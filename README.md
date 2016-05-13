@@ -77,7 +77,7 @@ Allí, podremos crear una nueva aplicación, seleccionar el repositorio deseado 
 
 Una vez generada, podrán descargarse los paquetes necesarios para su instalación desde la misma página, o mediante el código QR que aparece en la misma.
 
-Dicho apk puede descargarse además desde la sección *tags* de este repositorio.
+Dicho apk puede descargarse además desde la sección *releases* de este repositorio.
 
 ### 6. Mantenimiento de la Aplicación
 
